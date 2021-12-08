@@ -9543,7 +9543,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
 
 rjk-header@rjkerrison/rjk-header:
   version "1.0.3"
-  resolved "https://codeload.github.com/rjkerrison/rjk-header/tar.gz/90ce8c10516096f4582a147cc8b09bfbe7710ac9"
+  resolved "https://codeload.github.com/rjkerrison/rjk-header/tar.gz/e1d23b89772c70b84d4deedd209d1f5a9654ea6c"
   dependencies:
     react "^17.0.2"
 
