@@ -1,0 +1,47 @@
+button {
+  background: hsl(28, 95%, 92%);
+  cursor: pointer;
+
+  &:hover {
+    background: hsl(36, 93%, 80%);
+    transform-origin: center center;
+    transform: scale(1.025) translateY(-0.025rem);
+    box-shadow: rgba(0, 0, 0, 0.5) 0 1.25rem 1rem -0.5rem;
+  }
+}
+
+button,
+input {
+  border: black 1px solid;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0.5rem 1rem -0.5rem;
+  font-family: inherit;
+  font-weight: 600;
+  padding: 0.5rem;
+  font-size: 1rem;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  > label,
+  > input {
+    flex: 50% 1 1;
+    max-width: 50%;
+  }
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  button {
+    margin: 0.125rem;
+  }
+}

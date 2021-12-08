@@ -8,7 +8,16 @@ const SayHello = () => {
       <h2>Say Hello</h2>
       <p>Hello, {name}!</p>
       <form>
-        <input type='text' value={name} name='name' placeholder='Your name' />
+        <div className='input-group'>
+          <label for='name'>Your name:</label>
+          <input
+            type='text'
+            value={name}
+            id='name'
+            name='name'
+            placeholder='Your name'
+          />
+        </div>
       </form>
     </div>
   )
