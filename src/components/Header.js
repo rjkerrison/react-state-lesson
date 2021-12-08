@@ -1,14 +1,7 @@
-import logo from '../images/logo.svg'
+import { Header as SharedHeader } from 'rjk-header'
 
 const Header = () => {
-  return (
-    <header>
-      <h1>Learning React State by Example</h1>
-      <picture style={{ width: '5rem' }}>
-        <img src={logo} alt='React logo' />
-      </picture>
-    </header>
-  )
+  return <SharedHeader mainHeading='Learning React State' />
 }
 
 export default Header
