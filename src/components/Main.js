@@ -5,8 +5,8 @@ import Toggler from './features/Toggler'
 const Main = () => {
   return (
     <main>
-      <Toggler />
       <Counter />
+      <Toggler />
       <SayHello />
     </main>
   )
