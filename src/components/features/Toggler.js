@@ -7,7 +7,9 @@ const Toggler = () => {
   return (
     <div>
       <h2>Toggler</h2>
-      <Button text={value ? 'ON' : 'OFF'} />
+      <div className='button-group'>
+        <Button text={value ? 'ON' : 'OFF'} />
+      </div>
     </div>
   )
 }
