@@ -9,7 +9,7 @@ const SayHello = () => {
       <p>Hello, {name}!</p>
       <form>
         <div className='input-group'>
-          <label for='name'>Your name:</label>
+          <label htmlFor='name'>Your name:</label>
           <input
             type='text'
             value={name}

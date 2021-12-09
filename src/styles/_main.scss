@@ -3,22 +3,33 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
-  justify-items: center;
-  align-items: center;
+  justify-items: stretch;
+  align-items: stretch;
   text-align: center;
   gap: 2rem;
+  margin: 5rem;
+  padding: 2rem;
+  background-image: linear-gradient(
+    22605deg,
+    hsl(216, 65%, 69%) 10%,
+    hsl(212, 73%, 75%) 20%,
+    hsl(205, 69%, 71%) 50%,
+    hsl(216, 62%, 78%) 80%,
+    hsl(199, 64%, 72%) 100%
+  );
+  border-radius: 1rem;
+  box-shadow: hsl(305, 23%, 45%) 0.5rem 0.5rem 1.5rem -1rem;
 
   > div {
-    width: min-content;
     padding: 2rem;
     border-radius: 1rem;
     background-image: linear-gradient(
       45deg,
-      hsla(140, 64%, 52%, 0.5) 10%,
-      hsla(140, 46%, 45%, 0.6) 20%,
-      hsla(160, 59%, 41%, 0.5) 50%,
-      hsla(166, 72%, 48%, 0.6) 80%,
-      hsla(140, 64%, 52%, 0.5) 100%
+      hsla(140, 64%, 52%, 1) 10%,
+      hsla(138, 46%, 55%, 1) 20%,
+      hsla(141, 59%, 51%, 1) 50%,
+      hsla(146, 72%, 58%, 1) 80%,
+      hsla(140, 64%, 52%, 1) 100%
     );
     box-shadow: hsl(140, 23%, 45%) 0.5rem 0.5rem 1.5rem -1rem;
 
