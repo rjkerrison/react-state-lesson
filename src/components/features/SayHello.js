@@ -1,7 +1,7 @@
 import React from 'react'
 
 const SayHello = () => {
-  const name = 'Robin'
+  const [name, setName] = React.useState('Robin')
 
   return (
     <div>
@@ -16,6 +16,7 @@ const SayHello = () => {
             id='name'
             name='name'
             placeholder='Your name'
+            onChange={(event) => setName(event.target.value)}
           />
         </div>
       </form>
