@@ -49,3 +49,11 @@ It's common to have toggles to enable features, hide parts of a page, or otherwi
 
 Looking at a third data type, we have a greeting being displayed for the name Robin.
 The user should be able to change this name to their own.
+
+## Solution
+
+If you'd like to see a solution, check out the branch _live-lesson_.
+
+```sh
+git checkout live-lesson
+```
